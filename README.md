@@ -1,46 +1,58 @@
-# SentiDesk
+# SentiDesk: AI-Powered Sentiment Analysis for Helpdesk Calls
 
-## Overview
-SentiDesk is an AI-powered sentiment analysis system designed for helpdesk environments. It utilizes advanced Natural Language Processing (NLP) and Automatic Speech Recognition (ASR) to analyze customer interactions, classify sentiments, and provide actionable insights for improving customer support services.
+SentiDesk is an AI-driven sentiment analysis system designed to enhance helpdesk operations by analyzing customer calls. It uses speech recognition and transformer-based NLP models to classify sentiments as positive, negative, or neutral, providing real-time insights to improve customer service quality.
 
 ## Features
-- **Speech-to-Text Conversion**: Converts audio-based customer interactions into text.
-- **Sentiment Classification**: Categorizes sentiment as Positive, Negative, or Neutral.
-- **Confidence Scoring**: Provides reliability scores for sentiment predictions.
-- **Real-time Insights**: Interactive dashboard for monitoring sentiment trends and patterns.
-- **Data Storage & Logging**: Maintains historical sentiment analysis records for further insights.
-
-## Tech Stack
-- **Frontend**: Streamlit (Interactive Dashboard)
-- **Backend**: Python (Flask/FastAPI)
-- **Machine Learning**: Transformer-based NLP models (BERT, RoBERTa)
-- **Speech Processing**: ASR models for audio transcription
-- **Database**: PostgreSQL / MongoDB
+- **Automatic Speech Recognition (ASR)** for transcribing customer calls.
+- **Sentiment Classification** using transformer-based NLP models (e.g., BERT, RoBERTa).
+- **Real-time Visualization** with an interactive Streamlit dashboard.
+- **Trend Analysis** for tracking sentiment patterns over time.
+- **Confidence Score Metrics** to assess prediction reliability.
 
 ## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/gomathi-ramachandran/SentiDesk.git
-   cd SentiDesk
-   ```
-2. Create a virtual environment and install dependencies:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-3. Run the application:
-   ```sh
-   streamlit run app.py
-   ```
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/gomathi-ramachandran/SentiDesk.git
+cd SentiDesk
+```
+
+### 2️⃣ Create a Virtual Environment
+```sh
+python -m venv venv
+```
+
+### 3️⃣ Activate the Virtual Environment
+- **Windows (PowerShell):**
+  ```sh
+  venv\Scripts\Activate
+  ```
+- **Windows (CMD):**
+  ```sh
+  venv\Scripts\activate.bat
+  ```
+- **macOS/Linux:**
+  ```sh
+  source venv/bin/activate
+  ```
+
+### 4️⃣ Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+### 5️⃣ Run the Application
+```sh
+streamlit run app.py
+```
 
 ## Usage
-- Upload customer audio recordings via the dashboard.
-- View transcribed text and sentiment classification.
-- Analyze sentiment trends using interactive visualizations.
+1. Upload customer audio recordings via the dashboard.
+2. View the transcribed text and sentiment classification.
+3. Analyze sentiment trends and confidence scores with interactive visualizationson the dashboard.
+
 
 ## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve SentiDesk.
 
 ## Contact
 For any queries, reach out to [Gomathi Ramachandran](https://github.com/gomathi-ramachandran).
