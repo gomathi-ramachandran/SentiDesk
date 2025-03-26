@@ -1,0 +1,9 @@
+streamlit
+speechrecognition
+transformers
+torch
+pandas
+matplotlib
+plotly
+emoji
+asyncio
